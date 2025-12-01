@@ -1,1 +1,167 @@
 category,amount,data,time_id
+human_labor,142.50,Shift payment - J. Lopez,2025-01-01T08:15:02
+inventory,324.99,Restock: 2x4 lumber bundle,2025-01-01T09:22:44
+utilities,189.30,January electricity bill,2025-01-01T10:11:50
+rent,2500.00,Monthly store rent,2025-01-01T10:59:41
+supplies,45.20,Packaging tape refill,2025-01-01T12:03:27
+inventory,88.75,Restock: galvanized nails,2025-01-01T13:42:18
+equipment,599.99,New drill press maintenance kit,2025-01-01T14:50:09
+human_labor,160.00,Shift payment - M. Lee,2025-01-01T16:12:48
+cleaning,72.10,Weekly cleaning service,2025-01-01T17:20:31
+advertising,310.00,Local radio ad slot,2025-01-01T18:43:04
+inventory,412.90,Restock: copper pipes,2025-01-02T08:14:12
+software,39.99,Accounting software subscription,2025-01-02T09:50:44
+maintenance,125.00,Register scanner repair,2025-01-02T10:33:29
+insurance,780.00,Monthly liability insurance,2025-01-02T11:41:10
+human_labor,155.00,Shift payment - P. Nguyen,2025-01-02T12:18:59
+shipping,64.50,Incoming freight fee - pallet A12,2025-01-02T13:55:17
+inventory,219.30,Restock: PVC fittings,2025-01-02T14:30:40
+equipment,975.00,Air compressor replacement,2025-01-02T15:44:11
+supplies,32.80,Printer paper and labels,2025-01-02T16:39:22
+utilities,194.60,January water bill,2025-01-02T17:56:03
+advertising,125.00,Facebook ad campaign,2025-01-03T08:33:02
+human_labor,140.00,Shift payment - L. Brown,2025-01-03T09:27:55
+inventory,509.00,Restock: power tool assortment,2025-01-03T10:50:16
+shipping,72.40,Outgoing delivery - order 552,2025-01-03T11:44:07
+rent,2500.00,Store rent (2nd month),2025-02-01T08:11:02
+utilities,188.90,February electricity bill,2025-02-01T09:22:11
+cleaning,70.50,Weekly cleaning contract,2025-02-01T10:43:22
+inventory,199.49,Restock: screws and fasteners,2025-02-01T11:52:30
+equipment,350.00,Saw blade replacements,2025-02-01T12:34:18
+human_labor,160.00,Shift payment - S. Davis,2025-02-01T13:41:02
+software,39.99,POS software renewal,2025-02-01T14:25:52
+supplies,29.99,Receipt paper rolls,2025-02-01T15:16:44
+advertising,320.00,Local newspaper ad,2025-02-01T16:01:10
+inventory,475.60,Restock: plumbing connectors,2025-02-02T08:15:40
+insurance,780.00,February liability insurance,2025-02-02T09:41:11
+maintenance,140.00,Door hinge replacement,2025-02-02T10:26:49
+shipping,58.45,Incoming freight - tools,2025-02-02T11:40:33
+inventory,620.00,Restock: paint supplies,2025-02-02T12:12:18
+human_labor,150.00,Shift payment - T. Wilson,2025-02-02T13:58:57
+supplies,19.95,Hand sanitizer bottles,2025-02-02T15:49:22
+equipment,420.00,Repair of forklift brakes,2025-02-02T16:16:43
+utilities,166.20,February water bill,2025-02-02T17:59:14
+advertising,240.00,Google ads monthly package,2025-02-03T08:22:29
+inventory,514.40,Restock: wire spools,2025-02-03T09:49:57
+human_labor,138.00,Shift payment - H. Young,2025-02-03T10:44:05
+shipping,84.60,Outgoing delivery - order 618,2025-02-03T11:25:33
+inventory,277.90,Restock: drill bits,2025-02-03T12:14:18
+cleaning,69.80,Weekly cleaning service,2025-02-03T13:59:47
+equipment,514.99,New utility cart purchase,2025-02-03T14:44:21
+supplies,54.20,Trash bags and storage bins,2025-02-03T15:52:57
+insurance,780.00,Insurance premium payment,2025-02-03T16:46:40
+rent,2500.00,March store rent,2025-03-01T08:18:33
+utilities,200.10,March electricity bill,2025-03-01T09:44:19
+inventory,142.75,Restock: garden tools,2025-03-01T10:22:11
+human_labor,155.00,Shift payment - A. Patel,2025-03-01T11:56:40
+supplies,33.10,Printer ink purchase,2025-03-01T12:38:47
+equipment,899.00,Chain saw replacement,2025-03-01T13:21:59
+shipping,68.30,Incoming shipment - plumbing items,2025-03-01T14:33:05
+maintenance,110.00,Faucet repair in restroom,2025-03-01T15:27:18
+cleaning,72.00,Weekly cleaning service,2025-03-01T16:48:02
+advertising,300.00,Local flyer campaign,2025-03-01T17:33:11
+insurance,780.00,March liability insurance,2025-03-02T08:50:33
+inventory,399.99,Restock: electrical transformers,2025-03-02T09:33:12
+human_labor,149.00,Shift payment - D. Morgan,2025-03-02T10:55:17
+utilities,185.75,March water bill,2025-03-02T11:41:06
+supplies,22.99,Gloves and masks,2025-03-02T12:52:11
+shipping,74.10,Outgoing delivery - order 701,2025-03-02T13:45:49
+equipment,299.00,Drill repair parts,2025-03-02T14:38:10
+inventory,512.80,Restock: bulk screws,2025-03-02T15:20:47
+rent,2500.00,April rent,2025-04-01T09:11:01
+utilities,207.40,April electricity bill,2025-04-01T10:48:22
+inventory,276.99,Restock: outdoor patio tools,2025-04-01T11:15:44
+human_labor,161.00,Shift payment - M. Harris,2025-04-01T12:38:20
+maintenance,129.00,Roof leak patch,2025-04-01T13:58:29
+supplies,48.50,Janitorial restock,2025-04-01T14:43:02
+equipment,620.00,New pallet jack,2025-04-01T15:39:44
+shipping,94.30,Incoming freight - metal sheets,2025-04-01T16:59:11
+advertising,250.00,Google ads expansion,2025-04-01T17:16:29
+insurance,780.00,April liability insurance,2025-04-02T09:02:15
+cleaning,71.90,Weekly cleaning,2025-04-02T10:21:18
+inventory,348.20,Restock: sanding discs,2025-04-02T11:42:59
+human_labor,145.00,Shift payment - T. Allen,2025-04-02T12:37:44
+utilities,196.80,April water bill,2025-04-02T13:49:07
+supplies,59.75,Coffee & breakroom supplies,2025-04-02T14:58:41
+equipment,780.00,Work bench assembly,2025-04-02T15:44:22
+shipping,88.60,Outgoing delivery - order 742,2025-04-02T16:26:03
+inventory,522.25,Restock: pipe insulators,2025-04-02T17:50:19
+rent,2500.00,May rent,2025-05-01T08:25:12
+utilities,214.30,May electricity bill,2025-05-01T09:39:55
+inventory,490.00,Restock: tungsten blades,2025-05-01T10:54:07
+human_labor,159.00,Shift payment - E. Ramirez,2025-05-01T11:15:32
+maintenance,135.00,Floor polishing,2025-05-01T12:10:49
+advertising,280.00,Instagram ad package,2025-05-01T13:47:26
+equipment,1100.00,Heavy-duty shelving unit,2025-05-01T14:28:45
+supplies,36.50,Pen & marker restock,2025-05-01T15:42:17
+inventory,621.80,Restock: paint sprayers,2025-05-01T16:33:20
+shipping,66.70,Incoming shipment - mixed tools,2025-05-01T17:59:44
+insurance,780.00,May liability insurance,2025-05-02T08:11:49
+cleaning,70.30,Weekly cleaning service,2025-05-02T09:22:37
+inventory,228.90,Restock: safety goggles,2025-05-02T10:18:01
+human_labor,142.00,Shift payment - R. Scott,2025-05-02T11:46:30
+utilities,205.60,May water bill,2025-05-02T12:52:12
+equipment,250.00,Register maintenance,2025-05-02T13:59:33
+supplies,44.10,Shipping labels pack,2025-05-02T14:48:01
+inventory,590.20,Restock: concrete mix,2025-05-02T15:39:22
+shipping,92.50,Outgoing delivery - order 788,2025-05-02T16:45:49
+advertising,300.00,Community bulletin ad,2025-05-02T17:20:13
+rent,2500.00,June rent,2025-06-01T08:05:04
+utilities,220.10,June electricity bill,2025-06-01T09:52:17
+inventory,240.60,Restock: lawnmower parts,2025-06-01T10:14:28
+human_labor,160.00,Shift payment - A. Kim,2025-06-01T11:47:33
+supplies,58.80,Masking tape bulk box,2025-06-01T12:18:19
+equipment,840.00,Industrial fan replacement,2025-06-01T13:27:55
+maintenance,155.00,Exterior pipe fix,2025-06-01T14:51:44
+inventory,339.10,Restock: electrical conduit,2025-06-01T15:32:10
+shipping,65.20,Incoming shipment - hardware mix,2025-06-01T16:14:02
+cleaning,72.10,Weekly cleaning,2025-06-01T17:41:55
+insurance,780.00,June liability insurance,2025-06-02T09:22:10
+inventory,555.40,Restock: fencing materials,2025-06-02T10:11:49
+human_labor,147.00,Shift payment - G. Carter,2025-06-02T11:58:00
+utilities,210.90,June water bill,2025-06-02T12:37:55
+supplies,21.80,Clipboards and pens,2025-06-02T13:15:22
+equipment,365.00,POS terminal repair,2025-06-02T14:51:07
+shipping,79.40,Outgoing delivery - order 842,2025-06-02T15:40:03
+inventory,422.75,Restock: metal brackets,2025-06-02T16:34:50
+advertising,305.00,Local sponsorship event,2025-06-02T17:18:59
+cleaning,71.40,Weekly cleaning,2025-06-03T08:32:22
+inventory,498.20,Restock: sandpaper bulk,2025-06-03T09:54:11
+utilities,219.30,July electricity bill,2025-07-01T08:44:02
+rent,2500.00,July rent,2025-07-01T09:58:14
+human_labor,165.00,Shift payment - S. Martinez,2025-07-01T10:20:05
+inventory,680.40,Restock: power saw units,2025-07-01T11:42:33
+supplies,40.60,Tape measure replacements,2025-07-01T12:58:21
+equipment,920.00,Backup generator repair,2025-07-01T13:47:12
+shipping,94.00,Incoming freight - metal goods,2025-07-01T14:50:19
+maintenance,175.00,Floor tile repair,2025-07-01T15:39:44
+advertising,280.00,Facebook retargeting ads,2025-07-01T16:50:18
+insurance,780.00,July liability insurance,2025-07-02T09:25:41
+inventory,340.99,Restock: screwdrivers,2025-07-02T10:43:22
+human_labor,152.00,Shift payment - J. Wright,2025-07-02T11:52:30
+utilities,223.40,July water bill,2025-07-02T12:48:14
+supplies,50.60,Breakroom essentials,2025-07-02T13:30:05
+equipment,345.00,Welding torch repair,2025-07-02T14:41:55
+shipping,88.80,Outgoing delivery - order 921,2025-07-02T15:52:11
+inventory,590.40,Restock: drilling oil,2025-07-02T16:38:40
+cleaning,72.00,Weekly cleaning,2025-07-02T17:59:10
+insurance,780.00,August liability insurance,2025-08-01T09:11:55
+rent,2500.00,August rent,2025-08-01T10:22:14
+utilities,230.10,August electricity bill,2025-08-01T11:49:05
+inventory,410.00,Restock: hammer sets,2025-08-01T12:58:31
+human_labor,168.00,Shift payment - L. Chavez,2025-08-01T13:21:40
+supplies,44.90,Office restock,2025-08-01T14:36:15
+advertising,295.00,YouTube ad campaign,2025-08-01T15:52:20
+shipping,75.40,Incoming freight - warehouse goods,2025-08-01T17:10:42
+equipment,890.00,Forklift tune-up,2025-08-01T18:24:33
+maintenance,160.00,Exterior signage repair,2025-08-01T19:40:22
+inventory,612.10,Restock: industrial bolts,2025-08-02T08:33:19
+cleaning,70.80,Weekly cleaning,2025-08-02T09:44:56
+human_labor,157.00,Shift payment - B. Foster,2025-08-02T10:52:40
+supplies,37.50,Shipping tape & markers,2025-08-02T12:11:33
+shipping,83.10,Outgoing delivery - order 984,2025-08-02T13:20:27
+utilities,218.60,August water bill,2025-08-02T14:49:14
+equipment,455.00,Ladder replacement,2025-08-02T16:00:52
+advertising,310.00,Local billboard ad,2025-08-02T17:39:42
+inventory,730.00,Restock: power drills,2025-08-02T18:50:31
+software,39.99,Monthly accounting subscription,2025-08-02T19:33:05
