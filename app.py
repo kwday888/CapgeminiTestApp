@@ -102,6 +102,9 @@ st.title("Simple Expense Tracker")
 if "page" not in st.session_state:
     st.session_state["page"] = "View Expenses"
 
+if "extra_categories" not in st.session_state:
+    st.session_state["extra_categories"] = []
+
 page = st.sidebar.radio("Navigate",["View Expenses", "Add Expense", "Expense Trends"],
     index=["View Expenses", "Add Expense", "Expense Trends"].index(st.session_state["page"]),)
 
@@ -131,30 +134,67 @@ if page == "View Expenses":
         st.dataframe(by_cat, use_container_width=True)
 
 
-# ---------- Add Expense Tab ----------
+# ______ Add Expense Tab _______
 elif page == "Add Expense":
     st.subheader("Add a New Expense")
+    df_all = load_expenses()
+    base_categories = []
 
+    if not df_all.empty:
+        base_categories = [str(c).strip()for c in df_all[COL_CATEGORY].dropna().unique().tolist()if str(c).strip() != ""]
+    extra_categories = st.session_state.get("extra_categories", [])
+    category_options = sorted(set(base_categories + extra_categories))
+
+    # ____ Main expense form ___
     with st.form("add_expense_form"):
         col1, col2 = st.columns(2)
         with col1:
-            category = st.text_input("Category", placeholder="e.g. human_labor, rent, inventory")
+            if category_options:
+                category = st.selectbox("Category",options=category_options,index=0,help="Select an existing category.",)
+            else:
+                category = st.text_input("Category",placeholder="e.g. human_labor, rent, inventory",help="No categories yet. Enter a new one.",)
         with col2:
-            amount = st.number_input("Amount", min_value=0.0, step=0.01, format="%.2f")
-        description = st.text_input("Description (data column)", placeholder="e.g. Shift payment - J. Lopez")
+            amount = st.number_input("Amount",min_value=0.0,step=0.01,format="%.2f",)
+
+        description = st.text_input("Description (data column)",placeholder="e.g. Shift payment - J. Lopez",)
         submitted = st.form_submit_button("Save Expense")
 
     if submitted:
-        if not category.strip():
+        if not category or not str(category).strip():
             st.error("Category cannot be empty.")
         elif amount <= 0:
             st.error("Amount must be greater than 0.")
         else:
-            add_expense(category, amount, description)
+            add_expense(str(category), amount, description)
             st.success("Expense saved successfully!")
+
+            cat_clean = str(category).strip()
+            if cat_clean and cat_clean not in st.session_state["extra_categories"]:
+                st.session_state["extra_categories"].append(cat_clean)
+
             st.session_state["page"] = "View Expenses"
             st.rerun()
 
+    st.markdown("---")
+    st.markdown("### Manage Categories")
+
+    # ---- New category form ----
+    with st.form("add_category_form"):
+        new_category = st.text_input("Add a new category",placeholder="e.g. utilities, advertising, equipment",)
+        add_cat_submitted = st.form_submit_button("Add Category")
+
+    if add_cat_submitted:
+        cat_clean = new_category.strip()
+        if not cat_clean:
+            st.error("Category name cannot be empty.")
+        else:
+            all_existing = set(base_categories + st.session_state["extra_categories"])
+            if cat_clean in all_existing:
+                st.warning(f"Category '{cat_clean}' already exists.")
+            else:
+                st.session_state["extra_categories"].append(cat_clean)
+                st.success(f"Category '{cat_clean}' added. It is now available in the dropdown above.")
+                st.rerun()
 
 # ______ Expense Trends Tab ______
 
