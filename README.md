@@ -25,11 +25,11 @@ The hosted app persists changes during runtime but does **not** write back to Gi
 ---
 
 # **Project Structure**
-.
-├── app.py # Main Streamlit application
-├── expense_data.csv # Seed data (file based storage)
-├── requirements.txt # Project dependencies
-└── README.md # Documentation
+.  
+├── app.py # Main Streamlit application  
+├── expense_data.csv # Seed data (file based storage)  
+├── requirements.txt # Project dependencies  
+└── README.md # Documentation  
 
 
 ### **Key Files**
