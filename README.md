@@ -18,7 +18,7 @@ Includes **seed data** and **hosted version**
 
 # **Live Hosted Version (Streamlit)**
 
-👉 **Hosted App:** *kd-capgemini-app.streamlit.app*  
+**Hosted App:** *kd-capgemini-app.streamlit.app*  
 
 The hosted app persists changes during runtime but does **not** write back to GitHub (expected behavior on Streamlit Cloud).
 
