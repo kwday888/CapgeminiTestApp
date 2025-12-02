@@ -137,26 +137,27 @@ Your default browser will automatically open the app.
 ---
 
 # **requirements.txt**
-streamlit
-pandas
-numpy
-altair
+- streamlit
+- pandas
+- numpy
+- altair
 
 ---
 
 # **Future Improvements (Beyond Assessment Requirements)**
 If scaled into a production system, natural next steps include:
-Replacing CSV with a persistent database (PostgreSQL or SQLite)
-Adding multi-user authentication
-Date-range filtering & advanced reporting
-Export options (CSV/Excel)
+- Replacing CSV with a persistent database (PostgreSQL or SQLite)
+- Adding multi-user authentication
+- Date-range filtering & advanced reporting
+- Export options (CSV/Excel)
 
 ---
 
 # **Notes About Storage & Hosting**
-Streamlit Cloud runs the app inside a temporary container.
+Streamlit Cloud runs the app inside a temporary container.  
+
 Therefore:
-CSV changes persist while the container is active
-They do not sync back to GitHub (normal behavior)
-expense_data.csv in the GitHub repo acts as seed/demo data
-This aligns with the assignment requirement that data may be stored in a file rather than a database.
+- CSV changes persist while the container is active
+- They do not sync back to GitHub (normal behavior)
+- expense_data.csv in the GitHub repo acts as seed/demo data
+- This aligns with the assignment requirement that data may be stored in a file rather than a database.
