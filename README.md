@@ -108,6 +108,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 Your default browser will automatically open the app.
+```
 
 ---
 
